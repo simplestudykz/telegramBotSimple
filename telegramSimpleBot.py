@@ -1,6 +1,6 @@
 import os
 import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 from notion_client import Client
 
 # Получаем токен Telegram-бота
